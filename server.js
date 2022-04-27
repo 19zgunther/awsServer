@@ -56,11 +56,4 @@ wss.on("connection",  ws => {
     }
 });
 
-function sendMessage()
-{
-        ws.send("HI");
-}
-
-var interval = setInterval(sendMessage, 10000);
-
         
